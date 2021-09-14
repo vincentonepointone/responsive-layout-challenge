@@ -1,0 +1,25 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: #23424A;
+    padding: 50px;
+
+    /* width: 900px;  */
+    margin: 0 auto;
+    /* smaller than 900px you get side scroling */
+    /* By default things are responsive if you set a set value it creates issues */
+    /* divs have a default width of 100 percent  */
+    width: 80%;
+}
+
+.child {
+    background-color: #38CFD9;
+    /* Normaly he would not add a hieght it's just to get us started */
+    /* fixed with will create overflow */
+    width: 50%;
+    height: 250px;
+}
