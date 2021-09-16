@@ -26,9 +26,18 @@ body {
   color: white;
 
   width: 80%;
+
+  /* Setting a max-width so the content does not stetch out on bigger screens whitch is bad design practice 
+    once the view port is at 750px the size does not grow further */
+  max-width: 750px;
+
   margin: 0 auto;
 
   padding: 2em;
-  padding-right: 50%;
+  
 
+}
+
+.intro-content {
+  width: 50%;
 }
